@@ -22,7 +22,6 @@ cat_food_list = [
     "鲜蛋黄",
     "鲜鸡肝",
     "鲜牛肝",
-    "猫草",
     "干燥鱼片",
     "干燥鸡肉块",
     "干燥牛肉块"
@@ -299,7 +298,7 @@ def send_message(to_user, access_token, region_name, weather, temp, wind_dir, no
     data = {
         "touser": to_user,
         "template_id": config["template_id"],
-        "url": "http://weixin.qq.com/download",
+        "url": "http://wgcyg.cxytx.cn/",
         "topcolor": "#FF0000",
         "data": {
             "date": {
