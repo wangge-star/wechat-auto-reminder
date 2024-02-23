@@ -3,7 +3,7 @@ run-name: ${{ github.actor }} is pushing the wechat messages
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 02 * * *' # 上午 10 点 25 分对应的 cron 表达式是 25 02
+    - cron: '00 00 * * *' # 上午 10 点 25 分对应的 cron 表达式是 25 02
 jobs:
   build:
     runs-on: ubuntu-latest
